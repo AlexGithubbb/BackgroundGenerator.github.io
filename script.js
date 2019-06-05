@@ -45,6 +45,13 @@
 
 
 // //ORRRRRR
+var _ = require('lodash');
+console.log(_);
+
+var array = [1, 11, 2,3,4,5,6,7,8];
+console.log("answer: ", _.without(array, 11));
+
+
 
 var css = document.querySelector("h3"); //selecting h3 which will display the code for the colors
 var color1 = document.querySelector(".color1"); //".color1" since you are selecting class="color1"
